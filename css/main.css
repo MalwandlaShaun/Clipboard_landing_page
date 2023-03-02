@@ -1,4 +1,4 @@
-/* start global rulse */
+/* global rules */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -23,8 +23,8 @@ body {
 
 @media (max-width: 991px) {
   .flex {
-    gap: 50px;
     flex-wrap: wrap;
+    gap: 50px;
   }
 }
 
@@ -34,8 +34,8 @@ h3 {
 }
 
 p {
-  padding: 22px 0;
   color: hsl(201, 11%, 66%);
+  padding: 22px 0;
 }
 
 ul {
@@ -43,14 +43,14 @@ ul {
 }
 
 button {
+  display: block;
   border: none;
   outline: none;
   border-radius: 33px;
-  display: block;
   cursor: pointer;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }
 
@@ -81,22 +81,6 @@ button {
   }
 }
 
-/* end global rulse */
-
-/* start Animation */
-.fade-in {
-  opacity: 0;
-  transition: 350ms ease-in;
-}
-
-.fade-in.show {
-  opacity: 1;
-}
-
-/* end Animation */
-
-/* start landing */
-
 .landing {
   background-image: url(../images/bg-header-desktop.png);
   background-size: cover;
@@ -117,8 +101,8 @@ button {
 
 .landing button:first-of-type,
 .landing button:last-of-type {
-  color: #fff;
   display: inline;
+  color: #fff;
   padding: 11px 44px;
   margin-bottom: 22px;
 }
@@ -130,17 +114,15 @@ button {
   background-color: hsl(233, 100%, 69%);
 }
 
-/* end landing */
-
-/* start track */
+/* track */
 
 .track {
   padding: 100px;
 }
 
 .track .holder .image img {
-  width: 100%;
   position: relative;
+  width: 100%;
   left: -177px;
 }
 
@@ -149,8 +131,6 @@ button {
     left: 0;
   }
 }
-
-/* 771px 991px */
 
 .track .holder .text {
   text-align: left;
@@ -165,9 +145,7 @@ button {
   }
 }
 
-/* end track */
-
-/* start access */
+/* access */
 
 .access {
   padding: 100px 0;
@@ -177,9 +155,7 @@ button {
   width: 80%;
 }
 
-/* end access */
-
-/* start supercharge */
+/* supercharge */
 
 .supercharge {
   padding: 100px 0;
@@ -199,9 +175,7 @@ button {
   }
 }
 
-/* end supercharge */
-
-/* start download-app */
+/* download-app */
 
 .download-app {
   padding: 100px 0;
@@ -222,13 +196,11 @@ button {
   background-color: hsl(233, 100%, 69%);
 }
 
-/* end download-app */
-
-/* start footer */
+/* footer */
 
 .footer {
-  padding: 100px 0;
   background-color: #f5f6f8;
+  padding: 100px 0;
 }
 
 @media (max-width: 991px) {
@@ -254,4 +226,3 @@ button {
 .footer .container ul:last-of-type {
   gap: 22px;
 }
-/* end footer */
