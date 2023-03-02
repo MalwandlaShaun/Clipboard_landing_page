@@ -23,8 +23,8 @@ body {
 
 @media (max-width: 991px) {
   .flex {
-    flex-wrap: wrap;
     gap: 50px;
+    flex-wrap: wrap;
   }
 }
 
@@ -34,8 +34,8 @@ h3 {
 }
 
 p {
-  color: hsl(201, 11%, 66%);
   padding: 22px 0;
+  color: hsl(201, 11%, 66%);
 }
 
 ul {
@@ -43,10 +43,10 @@ ul {
 }
 
 button {
-  display: block;
   border: none;
   outline: none;
   border-radius: 33px;
+  display: block;
   cursor: pointer;
 }
 
@@ -81,6 +81,8 @@ button {
   }
 }
 
+/* landing */
+
 .landing {
   background-image: url(../images/bg-header-desktop.png);
   background-size: cover;
@@ -101,8 +103,8 @@ button {
 
 .landing button:first-of-type,
 .landing button:last-of-type {
-  display: inline;
   color: #fff;
+  display: inline;
   padding: 11px 44px;
   margin-bottom: 22px;
 }
@@ -121,8 +123,8 @@ button {
 }
 
 .track .holder .image img {
-  position: relative;
   width: 100%;
+  position: relative;
   left: -177px;
 }
 
@@ -199,8 +201,8 @@ button {
 /* footer */
 
 .footer {
-  background-color: #f5f6f8;
   padding: 100px 0;
+  background-color: #f5f6f8;
 }
 
 @media (max-width: 991px) {
