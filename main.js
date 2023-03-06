@@ -113,8 +113,8 @@ open them.
 </div>
 
   </div>
-  <div class="signup fade-in">
-    <div class="container">
+  <div class="signup">
+    <div class="container download-app">
       <div class="logos">
         <img src="${googleSrc}" alt="logo-google" />
         <img src="${ibmSrc}" alt="logo-ibm" />

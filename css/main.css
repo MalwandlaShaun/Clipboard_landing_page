@@ -1,7 +1,5 @@
 /* global rules */
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -65,8 +63,8 @@ button {
     width: 750px;
   }
 }
-/* medium screen size */
 
+/* medium screen size */
 @media (min-width: 929px) {
   .container {
     width: 970px;
@@ -74,7 +72,6 @@ button {
 }
 
 /* large screen size */
-
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
@@ -82,7 +79,6 @@ button {
 }
 
 /* landing */
-
 .landing {
   background-image: url(../images/bg-header-desktop.png);
   background-size: cover;
@@ -112,12 +108,12 @@ button {
 .landing button:first-of-type {
   background-color: hsl(171, 66%, 44%);
 }
+
 .landing button:last-of-type {
   background-color: hsl(233, 100%, 69%);
 }
 
 /* track */
-
 .track {
   padding: 100px;
 }
@@ -142,13 +138,13 @@ button {
   .track .holder {
     flex-direction: column;
   }
+
   .track .holder .text {
     text-align: center;
   }
 }
 
 /* access */
-
 .access {
   padding: 100px 0;
 }
@@ -158,7 +154,6 @@ button {
 }
 
 /* supercharge */
-
 .supercharge {
   padding: 100px 0;
 }
@@ -175,6 +170,14 @@ button {
   .supercharge .holder {
     flex-direction: column;
   }
+}
+
+.supercharge .holder .text {
+  margin: 33px 0;
+}
+
+.supercharge .holder .text h2 {
+  margin-bottom: 22px;
 }
 
 /* download-app */
